@@ -49,11 +49,11 @@ div {
 
 @media screen and (max-width: 576px) {
   .carousel {
-    height: 300px !important;
-    min-height: 300px !important;
+    height: 220px !important;
+    min-height: 200px !important;
   }
   .carousel-item > img {
-    height: 250px;
+    height: 220px;
   }
 }
 /*# sourceMappingURL=style.css.map */
