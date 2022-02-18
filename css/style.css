@@ -46,4 +46,14 @@ div {
 .tab {
   margin-top: 90px !important;
 }
+
+@media screen and (max-width: 576px) {
+  .carousel {
+    height: 300px !important;
+    min-height: 300px !important;
+  }
+  .carousel-item > img {
+    height: 300px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
