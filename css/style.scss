@@ -1,0 +1,54 @@
+$paragraphSize: 12px;
+$dateParagragh: 8px;
+$paragraphWeight: bolder;
+$danger: #df4759;
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+header {
+  background-color: rgb(252, 239, 239);
+  height: 80px;
+}
+
+p {
+  font-size: $paragraphSize !important;
+  font-weight: $paragraphWeight;
+}
+div {
+  opacity: 0.7;
+}
+
+.news-date {
+  font-size: $dateParagragh
+}
+.news-detail{
+  font-size: 14px !important;
+  font-weight: normal;
+}
+
+.dot-spin {
+  top: 50%;
+  z-index: 100;
+}
+
+
+.opacity {
+  opacity: 0.5;
+}
+
+#related {
+  width: 45% !important;
+}
+
+
+.tab{
+  margin-top: 90px !important;
+}
+
+
